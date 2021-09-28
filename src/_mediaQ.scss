@@ -1,0 +1,20 @@
+@media (min-width: 450px) {
+}
+@media (min-width: 650px) {
+}
+@media (min-width: 900px) {
+	.header {
+		.nav {
+			.nav__icono-menu {
+				display: none;
+			}
+			.nav__links {
+				display: block;
+			}
+		}
+	}
+}
+@media (min-width: 1200px) {
+}
+@media (min-width: 2000px) {
+}
