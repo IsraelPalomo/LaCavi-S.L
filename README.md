@@ -1,4 +1,4 @@
-# lacavi
+# LaCavi S.L
 
 Empty project.
 
