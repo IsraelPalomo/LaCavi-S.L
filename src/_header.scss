@@ -77,7 +77,7 @@
 			.header__btn--contacto {
 				backdrop-filter: blur(20px);
 				background-color: rgba(0, 0, 0, 0);
-				border: 1px solid white;
+				border: 2px solid white;
 				color: white;
 				cursor: pointer;
 				&:hover {
@@ -95,7 +95,36 @@
 				}
 			}
 		}
+		.header__redes-sociales {
+			display: grid;
+			grid-template-columns: 1fr;
+			margin-left: 2rem;
+			gap: 1rem;
+			cursor: pointer;
+			position: absolute;
+			bottom: 2rem;
+			display: none;
+			.header__icon {
+				color: white;
+			}
+			.header__icon--facebook {
+				&:hover {
+					color: #4867aa;
+				}
+			}
+			.header__icon--instagram {
+				&:hover {
+					color: #ad327d;
+				}
+			}
+			.header__icon--msm {
+				&:hover {
+					color: #de3f38;
+				}
+			}
+		}
 		.header__icono {
+			cursor: pointer;
 			color: white;
 			margin: 0 auto;
 			text-align: center;

@@ -20,6 +20,12 @@
 				display: block;
 			}
 		}
+		.header__hero {
+			.header__redes-sociales {
+				display: grid;
+				grid-template-columns: 1fr;
+			}
+		}
 	}
 }
 @media (min-width: 1200px) {
