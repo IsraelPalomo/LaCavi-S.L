@@ -64,12 +64,43 @@
 				text-align: center;
 			}
 		}
+		.header__contenedor-btn {
+			width: 100%;
+			display: flex;
+			justify-content: center;
+			gap: 3rem;
+			margin-top: -3rem;
+
+			.header__btn {
+				padding: 0.4rem 1rem;
+			}
+			.header__btn--contacto {
+				backdrop-filter: blur(20px);
+				background-color: rgba(0, 0, 0, 0);
+				border: 1px solid white;
+				color: white;
+				cursor: pointer;
+				&:hover {
+					background-color: white;
+					color: #000;
+				}
+			}
+			.header__btn--mas {
+				cursor: pointer;
+				&:hover {
+					backdrop-filter: blur(20px);
+					background-color: rgba(0, 0, 0, 0);
+					border: 2px solid white;
+					color: white;
+				}
+			}
+		}
 		.header__icono {
 			color: white;
 			margin: 0 auto;
 			text-align: center;
-			margin-bottom: -9rem;
-			margin-top: -4rem;
+			margin-bottom: -8rem;
+			margin-top: -5rem;
 			animation-name: pulso;
 			animation-timing-function: ease;
 			animation-duration: 2s;
