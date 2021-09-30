@@ -69,8 +69,23 @@
 			width: 100%;
 			margin: 0 auto;
 			text-align: center;
-			margin-bottom: -8rem;
+			margin-bottom: -9rem;
 			margin-top: -4rem;
+			animation-name: pulso;
+			animation-timing-function: ease;
+			animation-duration: 2s;
+			animation-iteration-count: infinite;
+		}
+		@keyframes pulso {
+			0% {
+				transform: scale(1);
+			}
+			50% {
+				transform: scale(1.1);
+			}
+			100% {
+				transform: scale(1);
+			}
 		}
 	}
 
