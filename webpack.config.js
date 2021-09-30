@@ -29,6 +29,10 @@ const config = {
 					filename: "static/[hash][ext][query]",
 				},
 			},
+			{
+				test: /\.svg$/,
+				loader: "svg-inline-loader",
+			},
 		],
 	},
 	plugins: [

@@ -27,6 +27,7 @@
   },
   "devDependencies": {
     "mini-css-extract-plugin": "^2.3.0",
+    "svg-inline-loader": "^0.8.2",
     "webpack": "^5.52.1",
     "webpack-cli": "^4.8.0"
   }
