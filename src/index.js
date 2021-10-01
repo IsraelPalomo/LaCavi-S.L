@@ -1,8 +1,8 @@
 import "./styles.css";
 import "./styles.scss";
-import imgSrc1 from "./static/presupuesto.png";
-import imgSrc2 from "./static/obrero.png";
-import imgSrc3 from "./static/virus.png";
+import imgSrc1 from "./static/presupuesto.webp";
+import imgSrc2 from "./static/obrero.webp";
+import imgSrc3 from "./static/virus.webp";
 
 //? Menu Desplegable
 
