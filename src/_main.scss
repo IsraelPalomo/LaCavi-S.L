@@ -1,0 +1,17 @@
+.main {
+	.main__servicios {
+		text-align: center;
+		margin-top: 15rem;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 3rem;
+		h2 {
+			margin-bottom: 5rem;
+		}
+		.main__servicios-img {
+			width: 5rem;
+			height: 5rem;
+		}
+	}
+}
