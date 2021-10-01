@@ -23,3 +23,5 @@ const img2 = document.querySelector(".main__servicios--mano-obra");
 img2.src = imgSrc2;
 const img3 = document.querySelector(".main__servicios--seguridad");
 img3.src = imgSrc3;
+
+AOS.init();
