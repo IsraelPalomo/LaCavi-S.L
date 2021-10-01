@@ -1,19 +1,30 @@
 .main {
 	overflow: hidden;
-	padding: 0 1rem;
+
 	.main__servicios {
 		text-align: center;
-		margin-top: 15rem;
+		margin-top: 13rem;
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
-		gap: 3rem;
-		h2 {
-			margin-bottom: 5rem;
-		}
+		gap: 5rem;
+		padding: 0 1rem;
+
 		.main__servicios-img {
 			width: 5rem;
 			height: 5rem;
 		}
+	}
+	.hogar {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-top: 13rem;
+		background-image: url("../src/static/img1.jpg");
+		height: 25rem;
+		color: white;
+		background-position: center bottom;
+		background-size: cover;
+		background-attachment: fixed;
 	}
 }
