@@ -5,6 +5,7 @@
 	grid-template-columns: 1fr;
 	justify-items: center;
 	gap: 1rem;
+
 	h2 {
 		font-size: 2rem;
 	}
@@ -36,6 +37,8 @@
 		width: 100%;
 		color: white;
 		letter-spacing: 2px;
+		margin-top: 1rem;
+		text-align: center;
 		h4 {
 			margin-left: 1rem;
 		}

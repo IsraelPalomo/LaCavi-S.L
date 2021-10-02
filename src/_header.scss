@@ -74,6 +74,23 @@
 
 			.header__btn {
 				padding: 0.4rem 1rem;
+				&:hover {
+					background-color: white;
+					a {
+						color: #000;
+					}
+				}
+			}
+			.header__btn--mas {
+				a {
+					color: black;
+					text-decoration: none;
+				}
+				&:hover {
+					a {
+						color: white;
+					}
+				}
 			}
 			.header__btn--contacto {
 				backdrop-filter: blur(20px);
@@ -81,9 +98,15 @@
 				border: 2px solid white;
 				color: white;
 				cursor: pointer;
+				a {
+					text-decoration: none;
+					color: white;
+				}
 				&:hover {
 					background-color: white;
-					color: #000;
+					a {
+						color: #000;
+					}
 				}
 			}
 			.header__btn--mas {
@@ -125,7 +148,6 @@
 			}
 		}
 		.header__icono {
-			cursor: pointer;
 			color: white;
 			margin: 0 auto;
 			text-align: center;
@@ -137,6 +159,7 @@
 			animation-iteration-count: infinite;
 			width: 50%;
 		}
+
 		@keyframes pulso {
 			0% {
 				transform: scale(1);
