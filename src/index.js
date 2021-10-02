@@ -4,11 +4,11 @@ import imgSrc1 from "./static/presupuesto.webp";
 import imgSrc2 from "./static/obrero.webp";
 import imgSrc3 from "./static/virus.webp";
 //TODO imagines slider
-import imgSrc4 from "./static/img2.png";
-import imgSrc5 from "./static/img3.png";
-import imgSrc6 from "./static/img4.jpg";
-import imgSrc7 from "./static/img5.png";
-import imgSrc8 from "./static/img6.png";
+import imgSrc4 from "./static/Img2.png";
+import imgSrc5 from "./static/Img3.png";
+import imgSrc6 from "./static/Img4.jpg";
+import imgSrc7 from "./static/Img5.png";
+import imgSrc8 from "./static/Img6.png";
 import imgSrc9 from "./static/img7.png";
 import imgSrc10 from "./static/img8.jpg";
 import imgSrc11 from "./static/img9.jpg";
