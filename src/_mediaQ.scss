@@ -19,6 +19,16 @@
 			}
 		}
 	}
+	.main {
+		.proyectos {
+			.swiper-slide {
+				width: 400px;
+				img {
+					width: 400px;
+				}
+			}
+		}
+	}
 }
 @media (min-width: 1200px) {
 }
