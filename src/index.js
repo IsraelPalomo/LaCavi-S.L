@@ -18,11 +18,41 @@ import imgSrc12 from "./static/img10.jpg";
 
 const iconoMenu = document.querySelector(".nav__icono-menu");
 const menuDesplegable = document.querySelector(".menu-desplegable");
+const enlace1 = document.querySelector(".menu-desplegable__link--1");
+const enlace2 = document.querySelector(".menu-desplegable__link--2");
+const enlace3 = document.querySelector(".menu-desplegable__link--3");
+const enlace4 = document.querySelector(".menu-desplegable__link--4");
+const enlace5 = document.querySelector(".menu-desplegable__link--5");
 
 iconoMenu.addEventListener("click", () => {
 	iconoMenu.classList.toggle("fa-bars");
 	iconoMenu.classList.toggle("fa-times");
 	menuDesplegable.classList.toggle("scale");
+});
+enlace1.addEventListener("click", () => {
+	menuDesplegable.classList.toggle("scale");
+	iconoMenu.classList.toggle("fa-bars");
+	iconoMenu.classList.toggle("fa-times");
+});
+enlace2.addEventListener("click", () => {
+	menuDesplegable.classList.toggle("scale");
+	iconoMenu.classList.toggle("fa-bars");
+	iconoMenu.classList.toggle("fa-times");
+});
+enlace3.addEventListener("click", () => {
+	menuDesplegable.classList.toggle("scale");
+	iconoMenu.classList.toggle("fa-bars");
+	iconoMenu.classList.toggle("fa-times");
+});
+enlace4.addEventListener("click", () => {
+	menuDesplegable.classList.toggle("scale");
+	iconoMenu.classList.toggle("fa-bars");
+	iconoMenu.classList.toggle("fa-times");
+});
+enlace5.addEventListener("click", () => {
+	menuDesplegable.classList.toggle("scale");
+	iconoMenu.classList.toggle("fa-bars");
+	iconoMenu.classList.toggle("fa-times");
 });
 
 //? Imagenes
