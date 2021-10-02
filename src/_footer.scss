@@ -1,0 +1,43 @@
+.footer {
+	height: 20rem;
+	background-color: $color-principal;
+	display: grid;
+	grid-template-columns: 1fr;
+	justify-items: center;
+	gap: 1rem;
+	h2 {
+		font-size: 2rem;
+	}
+	.footer__redes-sociales {
+		display: flex;
+		justify-content: space-between;
+		gap: 1rem;
+	}
+	.footer__icon {
+		cursor: pointer;
+	}
+	.footer__icon--facebook {
+		&:hover {
+			color: #4867aa;
+		}
+	}
+	.footer__icon--instagram {
+		&:hover {
+			color: #ad327d;
+		}
+	}
+	.footer__icon--msm {
+		&:hover {
+			color: #de3f38;
+		}
+	}
+	.copy {
+		background-color: $color-secundario;
+		width: 100%;
+		color: white;
+		letter-spacing: 2px;
+		h4 {
+			margin-left: 1rem;
+		}
+	}
+}
